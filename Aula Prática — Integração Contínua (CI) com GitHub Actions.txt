@@ -1,0 +1,28 @@
+1.1:
+CI/CD (Integração Contínua / Entrega Contínua) é uma prática de desenvolvimento que automatiza a integração de código e o processo de entrega. É importante porque melhora a qualidade do software, reduz erros e acelera o ciclo de desenvolvimento.
+
+1.2:
+Os workflows do GitHub ficam na pasta .github/workflows.
+
+2.3.1:
+No log do GitHub Actions, você verá informações sobre as etapas do workflow, como a execução de testes, build, deploy e quaisquer erros ou falhas que ocorreram durante o processo.
+
+2.3.2:
+Se você alterar o código e fizer um novo push, o GitHub Actions irá automaticamente iniciar o workflow novamente, executando as etapas configuradas, como testes ou deploy, para garantir que o código modificado está funcionando corretamente.
+
+2.4.1:
+Falha no Workflow: O GitHub Actions marcará o job como "falhado" (failed). O pipeline não será concluído com sucesso.
+Exibição do Log de Erros: O log de execução do pytest será exibido no GitHub Actions. Ele mostrará detalhes sobre o erro, incluindo a linha do código onde o teste falhou e a mensagem de erro, o que ajuda a identificar e corrigir o problema.
+
+
+4.1:
+GitHub Actions roda testes automaticamente sempre que há mudanças no código, ajudando a identificar erros logo no início, antes de afetarem a produção.
+
+4.2:
+Web: Testes automáticos de front-end (React, Vue) e back-end (Node.js, Django). Deploy para servidores após testes.
+Mobile: Testes em apps React Native ou Flutter. Deploy automático para Google Play ou App Store.
+
+4.3:
+SSH para servidores: Usando ssh-action para rodar comandos no servidor remoto.
+AWS ou Google Cloud: Usando CLI da AWS ou Google Cloud para fazer deploy diretamente para a nuvem (Elastic Beanstalk, App Engine, etc.).
+
